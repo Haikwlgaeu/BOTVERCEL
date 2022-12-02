@@ -1,0 +1,1 @@
+worker: yarn && npm i -g npm && npm start
