@@ -29,6 +29,7 @@
 "chalk": "^4.1.2",
 "steno": "^3.0.0",
 "textfile": "^1.2.0",
+"pm2": "^5.2.2",
 "cheerio": "^1.0.0-rc.12",
 "child_process": "^1.0.2",
 "python": "^0.0.4",
