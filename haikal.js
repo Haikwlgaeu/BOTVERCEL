@@ -757,7 +757,7 @@ thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg',
 }
 }
 break
-case 'bugsantet': {
+case 'santet': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length < 1) return m.reply(`*Syntax Error!*\n\nUse : ${command} nomor target|amount spam|timer\nExample : ${command} 62888s.whatsapp.net|1|10s\n\n\ns = Second/Detik\n\n`)
@@ -779,7 +779,7 @@ m.reply(`Success Send Bug To: ${num}\nAmount Spam: ${jumlah}`)
 }
 break
 //=================================================//
-case 'bugsantetgc': {
+case 'santetgc': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length < 1) return m.reply(`*Syntax Error!*\n\nUse : ${command} idGroup|amount spam|timer\nExample : ${command} 62888@g.us|1|10s\n\n\ns = Second/Detik\n\nDi Usahakan Bot Udah Masuk Group Nya`)
@@ -4571,7 +4571,7 @@ break
 case 'infobot': {
 if (isBan) throw sticBanLu(from)
 let buttons = [
-{buttonId: `bugmenu`, buttonText: {displayText: 'BUG MENU'}, type: 1},
+{buttonId: `menu`, buttonText: {displayText: 'BUG MENU'}, type: 1},
 {buttonId: `creator`, buttonText: {displayText: 'OWNER'}, type: 1},
 {buttonId: `menu`, buttonText: {displayText: 'MENU'}, type: 1}
 ]
@@ -4584,7 +4584,7 @@ caption: `◎ © Hay Kak ${pushname} 👋 Selamat ${salam}
 [ 🇲🇨 Aku Adalah Bot War Dari Indonesia]
 
 ° Owner  : 6281214281312
-° Version : 11
+° Version : 12
 ° Baileys : 4.4.0`,
 footer: haikal.user.name,
 buttons: buttons,
@@ -4601,12 +4601,21 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `◎ © Hay Kak ${pushnam
 [ 🇲🇨 Aku Adalah Bot War Dari Indonesia]
 
 ° Owner  : 6281214281312
-° Version : 11
+° Version : 12
 ° Baileys : 4.4.0
  ▰▱▰▱▰▱▰▱▰▱▰▱▰▱
  ❍ WE AR BOT WAR ❍
 ┏━━⊱
-┣❏ Bugmenu  ➥ 
+┣❏ Bugemoji  ➥
+┣❏ Bugsw  ➥
+┣❏ Buggroup  ➥
+┣❏ Bugpc  ➥
+┣❏ Bugbroadcast  ➥ 
+┣❏ Bugpayment  ➥ 
+┣❏ Bugvirtext  ➥ 
+┣❏ Bugjadibug  ➥ 
+┣❏ Bugspam  ➥ 
+┣❏ Bugsantet  ➥ 
 ┣❏ Infobot  ➥ 
 ┗━━⊱
  ▰▱▰▱▰▱▰▱▰▱▰▱▰▱
@@ -4646,7 +4655,7 @@ thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg',
 }
 break
 //=================================================//
-case 'bugmenu': {
+case 'bugemoji': {
 if (isBan) throw sticBanLu(from)
 haikal.sendMessage(m.chat, { image: kalimage, caption: `◎ © Hay Kak ${pushname} 👋 Selamat ${salam}
 
@@ -4672,53 +4681,205 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `◎ © Hay Kak ${pushnam
 [ BUG TIDAK RAMAH ]
 ┏━━⊱
 ┣❏🌷 [ jumlah ]
-┗━━⊱
+┗━━⊱`,
+contextInfo:{"externalAdReply": {"title": `SC banghw`,"body": `Selamat ${salam} kak ${pushname}`,
+previewType: "PHOTO",
+showAdAttribution: true,
+sourceUrl: `https://youtube.com/c/HwModsWa857`,
+thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg', 
+}
+}}, { quoted:m})
+}
+break
+case 'bugsw': {
+if (isBan) throw sticBanLu(from)
+haikal.sendMessage(m.chat, { image: kalimage, caption: `◎ © Hay Kak ${pushname} 👋 Selamat ${salam}
+
+[ 🇲🇨 Aku Adalah Bot War Dari Indonesia]
+
+° Owner  : 6281214281312
+° Version : 12
+° Baileys : 4.4.0
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
-[ KHUSUS CHAT PRIBADI ]
+^BUG BOT VIP^
+^BY : ${botname}^
+▬▭▬▭▬▭▬▭▬▬▭▬▭▬
+[ BUG STATUS : MASUKIN LINK ]
 ┏━━⊱
-┣❏buginvite [ jumlah ]
-┗━━⊱
+┣❏bugtiktok [ Link ] - Bug Sw
+┗━━⊱`,
+contextInfo:{"externalAdReply": {"title": `SC banghw`,"body": `Selamat ${salam} kak ${pushname}`,
+previewType: "PHOTO",
+showAdAttribution: true,
+sourceUrl: `https://youtube.com/c/HwModsWa857`,
+thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg', 
+}
+}}, { quoted:m})
+}
+break
+case 'buggroup': {
+if (isBan) throw sticBanLu(from)
+haikal.sendMessage(m.chat, { image: kalimage, caption: `◎ © Hay Kak ${pushname} 👋 Selamat ${salam}
+
+[ 🇲🇨 Aku Adalah Bot War Dari Indonesia]
+
+° Owner  : 6281214281312
+° Version : 12
+° Baileys : 4.4.0
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
-[ SPAM PAYMENT ]
-┏━━⊱
-┣❏mainpayment1
-┣❏mainpayment2
-┣❏mainpayment3
-┗━━⊱
+^BUG BOT VIP^
+^BY : ${botname}^
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
-[ BUG 1 ]
-[ BUG REPLY GROUP ]
+[ BUG GROUP ]
 ┏━━⊱
 ┣❏bugjagoan [ reply target ]
 ┗━━⊱
 [ BUG SANGE HARUS ADMIN ]
 ┏━━⊱
 ┣❏bugsange [ Harus Menjadi Admin ]
-┗━━⊱
-[ BUG STATUS : MASUKIN LINK ]
-┏━━⊱
-┣❏bugtiktok [ Link ] - Bug Sw
-┗━━⊱
+┗━━⊱`,
+contextInfo:{"externalAdReply": {"title": `SC banghw`,"body": `Selamat ${salam} kak ${pushname}`,
+previewType: "PHOTO",
+showAdAttribution: true,
+sourceUrl: `https://youtube.com/c/HwModsWa857`,
+thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg', 
+}
+}}, { quoted:m})
+}
+break
+case 'bugpc': {
+if (isBan) throw sticBanLu(from)
+haikal.sendMessage(m.chat, { image: kalimage, caption: `◎ © Hay Kak ${pushname} 👋 Selamat ${salam}
+
+[ 🇲🇨 Aku Adalah Bot War Dari Indonesia]
+
+° Owner  : 6281214281312
+° Version : 12
+° Baileys : 4.4.0
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
+^BUG BOT VIP^
+^BY : ${botname}^
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
-[ UNLIMITED BUG PC ]
+[ KHUSUS CHAT PRIBADI ]
 ┏━━⊱
-┣❏bugskuy 628xxx
-┗━━⊱
+┣❏buginvite [ jumlah ]
+┗━━⊱`,
+contextInfo:{"externalAdReply": {"title": `SC banghw`,"body": `Selamat ${salam} kak ${pushname}`,
+previewType: "PHOTO",
+showAdAttribution: true,
+sourceUrl: `https://youtube.com/c/HwModsWa857`,
+thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg', 
+}
+}}, { quoted:m})
+}
+break
+case 'bugbroadcast': {
+if (isBan) throw sticBanLu(from)
+haikal.sendMessage(m.chat, { image: kalimage, caption: `◎ © Hay Kak ${pushname} 👋 Selamat ${salam}
+
+[ 🇲🇨 Aku Adalah Bot War Dari Indonesia]
+
+° Owner  : 6281214281312
+° Version : 12
+° Baileys : 4.4.0
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
-Ketik > m.chat ( di group dulu )
-[ SANTET GROUP ]
+^BUG BOT VIP^
+^BY : ${botname}^
+▬▭▬▭▬▭▬▭▬▬▭▬▭▬
+[ BUG BROADCAST ]
 ┏━━⊱
-┣❏bugsantetgc  628xxx@g.us|10|10s
-┣❏santetbro 628xxx@g.us|10|10s
-┣❏cataloggc 628xxx@g.us|10|10s
-┗━━⊱
-[ UNLIMITED BUG GROUP ]
+┣❏bugbcimage [ Bug image Broadcast ]
+┣❏bugbcvideo [ Bug Video Broadcast ]
+┣❏bugbcaudio [ Bug Audio Broadcast ]
+┣❏bugbctext [ Bug Text Broadcast ]
+┗━━⊱`,
+contextInfo:{"externalAdReply": {"title": `SC banghw`,"body": `Selamat ${salam} kak ${pushname}`,
+previewType: "PHOTO",
+showAdAttribution: true,
+sourceUrl: `https://youtube.com/c/HwModsWa857`,
+thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg', 
+}
+}}, { quoted:m})
+}
+break
+case 'bugpayment': {
+if (isBan) throw sticBanLu(from)
+haikal.sendMessage(m.chat, { image: kalimage, caption: `◎ © Hay Kak ${pushname} 👋 Selamat ${salam}
+
+[ 🇲🇨 Aku Adalah Bot War Dari Indonesia]
+
+° Owner  : 6281214281312
+° Version : 12
+° Baileys : 4.4.0
+▬▭▬▭▬▭▬▭▬▬▭▬▭▬
+^BUG BOT VIP^
+^BY : ${botname}^
+▬▭▬▭▬▭▬▭▬▬▭▬▭▬
+[ SPAM PAYMENT ]
 ┏━━⊱
-┣❏gasbug (id group nya)
-┗━━⊱
+┣❏mainpayment1
+┣❏mainpayment2
+┣❏mainpayment3
+┗━━⊱`,
+contextInfo:{"externalAdReply": {"title": `SC banghw`,"body": `Selamat ${salam} kak ${pushname}`,
+previewType: "PHOTO",
+showAdAttribution: true,
+sourceUrl: `https://youtube.com/c/HwModsWa857`,
+thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg', 
+}
+}}, { quoted:m})
+}
+break
+case 'bugvirtext': {
+if (isBan) throw sticBanLu(from)
+haikal.sendMessage(m.chat, { image: kalimage, caption: `◎ © Hay Kak ${pushname} 👋 Selamat ${salam}
+
+[ 🇲🇨 Aku Adalah Bot War Dari Indonesia]
+
+° Owner  : 6281214281312
+° Version : 12
+° Baileys : 4.4.0
+▬▭▬▭▬▭▬▭▬▬▭▬▭▬
+^BUG BOT VIP^
+^BY : ${botname}^
+▬▭▬▭▬▭▬▭▬▬▭▬▭▬
+[ VIRTEXT DELAY ]
+┏━━⊱
+┣❏virtext1 [ jumlah ]
+┣❏virtext2 [ jumlah ]
+┣❏virtext3 [ jumlah ]
+┣❏virtext4 [ jumlah ]
+┣❏virtext5 [ jumlah ]
+┣❏virtext6 [ jumlah ]
+┣❏virtext7 [ jumlah ]
+┣❏virtext8 [ jumlah ]
+┣❏virtext9 [ jumlah ]
+┣❏virtext10 [ jumlah ]
+┗━━⊱`,
+contextInfo:{"externalAdReply": {"title": `SC banghw`,"body": `Selamat ${salam} kak ${pushname}`,
+previewType: "PHOTO",
+showAdAttribution: true,
+sourceUrl: `https://youtube.com/c/HwModsWa857`,
+thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg', 
+}
+}}, { quoted:m})
+}
+break
+case 'bugjadibug': {
+if (isBan) throw sticBanLu(from)
+haikal.sendMessage(m.chat, { image: kalimage, caption: `◎ © Hay Kak ${pushname} 👋 Selamat ${salam}
+
+[ 🇲🇨 Aku Adalah Bot War Dari Indonesia]
+
+° Owner  : 6281214281312
+° Version : 12
+° Baileys : 4.4.0
+▬▭▬▭▬▭▬▭▬▬▭▬▭▬
+^BUG BOT VIP^
+^BY : ${botname}^
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 [ JADI BUG ]
+┏━━⊱
 ┣❏jadikatalog [reply sticker] jumlah
 ┣❏jadijago [Masukan text nya]
 ┣❏jadipolling [Masukan text nya]
@@ -4747,20 +4908,28 @@ Ketik > m.chat ( di group dulu )
 ┣❏jadibug4 [Reply Sticker Jadi Bug Gambar]
 ┣❏jadibug5 [Reply Gambar Jadi Bug Once] 
 ┗━━⊱
+▬▭▬▭▬▭▬▭▬▬▭▬▭▬`,
+contextInfo:{"externalAdReply": {"title": `SC banghw`,"body": `Selamat ${salam} kak ${pushname}`,
+previewType: "PHOTO",
+showAdAttribution: true,
+sourceUrl: `https://youtube.com/c/HwModsWa857`,
+thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg', 
+}
+}}, { quoted:m})
+}
+break
+case 'bugspam': {
+if (isBan) throw sticBanLu(from)
+haikal.sendMessage(m.chat, { image: kalimage, caption: `◎ © Hay Kak ${pushname} 👋 Selamat ${salam}
+
+[ 🇲🇨 Aku Adalah Bot War Dari Indonesia]
+
+° Owner  : 6281214281312
+° Version : 12
+° Baileys : 4.4.0
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
-[ VIRTEXT DELAY ]
-┏━━⊱
-┣❏virtext1 [ jumlah ]
-┣❏virtext2 [ jumlah ]
-┣❏virtext3 [ jumlah ]
-┣❏virtext4 [ jumlah ]
-┣❏virtext5 [ jumlah ]
-┣❏virtext6 [ jumlah ]
-┣❏virtext7 [ jumlah ]
-┣❏virtext8 [ jumlah ]
-┣❏virtext9 [ jumlah ]
-┣❏virtext10 [ jumlah ]
-┗━━⊱
+^BUG BOT VIP^
+^BY : ${botname}^
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 [ BUG SPAM GROUP DAN CHAT]
 ┏━━⊱
@@ -4817,14 +4986,49 @@ Ketik > m.chat ( di group dulu )
 ┣❏troli3 [ jumlah ]
 ┣❏button [ jumlah ]
 ┣❏spam [ Reply Pesan ]
+┗━━⊱`,
+contextInfo:{"externalAdReply": {"title": `SC banghw`,"body": `Selamat ${salam} kak ${pushname}`,
+previewType: "PHOTO",
+showAdAttribution: true,
+sourceUrl: `https://youtube.com/c/HwModsWa857`,
+thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg', 
+}
+}}, { quoted:m})
+}
+break
+case 'bugsantet': {
+if (isBan) throw sticBanLu(from)
+haikal.sendMessage(m.chat, { image: kalimage, caption: `◎ © Hay Kak ${pushname} 👋 Selamat ${salam}
+
+[ 🇲🇨 Aku Adalah Bot War Dari Indonesia]
+
+° Owner  : 6281214281312
+° Version : 12
+° Baileys : 4.4.0
+▬▭▬▭▬▭▬▭▬▬▭▬▭▬
+^BUG BOT VIP^
+^BY : ${botname}^
+▬▭▬▭▬▭▬▭▬▬▭▬▭▬
+[ SANTET TARGET ]
+┏━━⊱
+┣❏🔥 628xxx|5|5
+┣❏santet 628xxx@s.whatsapp.net|10|10s
+┣❏catalogpc 628xxx@s.whatsapp.net|10|10s
+┗━━⊱
+[ UNLIMITED BUG PC ]
+┏━━⊱
+┣❏bugskuy 628xxx
 ┗━━⊱
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
-[ BUG BROADCAST ]
+Ketik > m.chat ( di group dulu )
+[ SANTET GROUP ]
 ┏━━⊱
-┣❏bugbcimage [ Bug image Broadcast ]
-┣❏bugbcvideo [ Bug Video Broadcast ]
-┣❏bugbcaudio [ Bug Audio Broadcast ]
-┣❏bugbctext [ Bug Text Broadcast ]
+┣❏santetgc  628xxx@g.us|10|10s
+┣❏cataloggc 628xxx@g.us|10|10s
+┗━━⊱
+[ UNLIMITED BUG GROUP ]
+┏━━⊱
+┣❏gasbug (id group nya)
 ┗━━⊱`,
 contextInfo:{"externalAdReply": {"title": `SC banghw`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",

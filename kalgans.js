@@ -227,7 +227,7 @@ return status}
 //=================================================//
 
 //Kalau Mau Self Lu Buat Jadi False
-haikal.public = false
+haikal.public = true
 //=================================================//
 haikal.serializeM = (m) => smsg(haikal, m, store)
 haikal.ev.on('connection.update', async (update) => {
