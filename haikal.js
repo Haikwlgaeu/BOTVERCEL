@@ -4579,11 +4579,11 @@ const buttonMessage = {
 video:fs.readFileSync("./baseikal/video/haikal.mp4"),
 gifPlayback:true,
 jpegThumbnail:log0,
-caption: `◎ © Hay Kak ${pushname} 👋 Selamat ${salam}
+caption: `◎ © Hay Dear ${pushname} 👋 Greetings ${salam}
 
-[ 🇲🇨 Aku Adalah Bot War Dari Indonesia]
+[This Is A Private Bot From Nigeria]
 
-° Owner  : 6281214281312
+° Owner  : 79917329694
 ° Version : 12
 ° Baileys : 4.4.0`,
 footer: haikal.user.name,
@@ -4598,26 +4598,14 @@ case 'menu': {
 if (isBan) throw sticBanLu(from)
 haikal.sendMessage(m.chat, { image: kalimage, caption: `◎ © Hay Kak ${pushname} 👋 Selamat ${salam}
 
-[ 🇲🇨 Aku Adalah Bot War Dari Indonesia]
+[ This Is A Private Bot From Nigeria]
 
-° Owner  : 6281214281312
+° Owner  : 79917329694
 ° Version : 12
 ° Baileys : 4.4.0
  ▰▱▰▱▰▱▰▱▰▱▰▱▰▱
- ❍ WE AR BOT WAR ❍
-┏━━⊱
-┣❏ Bugemoji  ➥
-┣❏ Bugsw  ➥
-┣❏ Buggroup  ➥
-┣❏ Bugpc  ➥
-┣❏ Bugbroadcast  ➥ 
-┣❏ Bugpayment  ➥ 
-┣❏ Bugvirtext  ➥ 
-┣❏ Bugjadibug  ➥ 
-┣❏ Bugspam  ➥ 
-┣❏ Bugsantet  ➥ 
-┣❏ Infobot  ➥ 
-┗━━⊱
+ ❍ WE PROTECT DIGNITIES ❍
+
  ▰▱▰▱▰▱▰▱▰▱▰▱▰▱
  ❍ Menu_Auto ❍
 ┏━━⊱
@@ -4645,21 +4633,40 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `◎ © Hay Kak ${pushnam
 ┣❏ Ownermenu  ➥ 
 ┗━━⊱
  ▰▱▰▱▰▱▰▱▰▱▰▱▰▱
-© banghw`, contextInfo:{"externalAdReply": {"title": `SC banghw`,"body": `Selamat ${salam} kak ${pushname}`,
+© unlidux`, contextInfo:{"externalAdReply": {"title": `SC unlidux`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
-sourceUrl: `https://youtube.com/c/HwModsWa857`,
+sourceUrl: `https://youtube.com/c/duxbot6413`,
 thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg', 
 }
 }}, { quoted:m})
 }
 break
 //=================================================//
+case 'bmenu': {
+if (isBan) throw sticBanLu(from)
+haikal.sendMessage(m.chat, { image: kalimage, caption: `◎ © Hay Kak ${pushname} 👋 Selamat ${salam}
+
+[ This Is A Private Bot From Nigeria]
+┏━━⊱
+┣❏ Bugemoji  ➥
+┣❏ Bugsw  ➥
+┣❏ Buggroup  ➥
+┣❏ Bugpc  ➥
+┣❏ Bugbroadcast  ➥ 
+┣❏ Bugpayment  ➥ 
+┣❏ Bugvirtext  ➥ 
+┣❏ Bugjadibug  ➥ 
+┣❏ Bugspam  ➥ 
+┣❏ Bugsantet  ➥ 
+┣❏ Infobot  ➥ 
+┗━━⊱
+break
 case 'bugemoji': {
 if (isBan) throw sticBanLu(from)
 haikal.sendMessage(m.chat, { image: kalimage, caption: `◎ © Hay Kak ${pushname} 👋 Selamat ${salam}
 
-[ 🇲🇨 Aku Adalah Bot War Dari Indonesia]
+[ This Is A Private Bot From Nigeria]
 
 ° Owner  : 6281214281312
 ° Version : 12
@@ -4695,7 +4702,7 @@ case 'bugsw': {
 if (isBan) throw sticBanLu(from)
 haikal.sendMessage(m.chat, { image: kalimage, caption: `◎ © Hay Kak ${pushname} 👋 Selamat ${salam}
 
-[ 🇲🇨 Aku Adalah Bot War Dari Indonesia]
+[ This Is A Private Bot From Nigeria]
 
 ° Owner  : 6281214281312
 ° Version : 12
@@ -4721,7 +4728,7 @@ case 'buggroup': {
 if (isBan) throw sticBanLu(from)
 haikal.sendMessage(m.chat, { image: kalimage, caption: `◎ © Hay Kak ${pushname} 👋 Selamat ${salam}
 
-[ 🇲🇨 Aku Adalah Bot War Dari Indonesia]
+[ This Is A Private Bot From Nigeria]
 
 ° Owner  : 6281214281312
 ° Version : 12
@@ -4751,7 +4758,7 @@ case 'bugpc': {
 if (isBan) throw sticBanLu(from)
 haikal.sendMessage(m.chat, { image: kalimage, caption: `◎ © Hay Kak ${pushname} 👋 Selamat ${salam}
 
-[ 🇲🇨 Aku Adalah Bot War Dari Indonesia]
+[ This Is A Private Bot From Nigeria]
 
 ° Owner  : 6281214281312
 ° Version : 12
@@ -4777,7 +4784,7 @@ case 'bugbroadcast': {
 if (isBan) throw sticBanLu(from)
 haikal.sendMessage(m.chat, { image: kalimage, caption: `◎ © Hay Kak ${pushname} 👋 Selamat ${salam}
 
-[ 🇲🇨 Aku Adalah Bot War Dari Indonesia]
+[This Is A Private Bot From Nigeria]
 
 ° Owner  : 6281214281312
 ° Version : 12
@@ -4806,7 +4813,7 @@ case 'bugpayment': {
 if (isBan) throw sticBanLu(from)
 haikal.sendMessage(m.chat, { image: kalimage, caption: `◎ © Hay Kak ${pushname} 👋 Selamat ${salam}
 
-[ 🇲🇨 Aku Adalah Bot War Dari Indonesia]
+[This Is A Private Bot From Nigeria]
 
 ° Owner  : 6281214281312
 ° Version : 12
@@ -4834,7 +4841,7 @@ case 'bugvirtext': {
 if (isBan) throw sticBanLu(from)
 haikal.sendMessage(m.chat, { image: kalimage, caption: `◎ © Hay Kak ${pushname} 👋 Selamat ${salam}
 
-[ 🇲🇨 Aku Adalah Bot War Dari Indonesia]
+[This Is A Private Bot From Nigeria]
 
 ° Owner  : 6281214281312
 ° Version : 12
@@ -4869,7 +4876,7 @@ case 'bugjadibug': {
 if (isBan) throw sticBanLu(from)
 haikal.sendMessage(m.chat, { image: kalimage, caption: `◎ © Hay Kak ${pushname} 👋 Selamat ${salam}
 
-[ 🇲🇨 Aku Adalah Bot War Dari Indonesia]
+[This Is A Private Bot From Nigeria]
 
 ° Owner  : 6281214281312
 ° Version : 12
@@ -4909,10 +4916,10 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `◎ © Hay Kak ${pushnam
 ┣❏jadibug5 [Reply Gambar Jadi Bug Once] 
 ┗━━⊱
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬`,
-contextInfo:{"externalAdReply": {"title": `SC banghw`,"body": `Selamat ${salam} kak ${pushname}`,
+contextInfo:{"externalAdReply": {"title": `SC unlidux`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
-sourceUrl: `https://youtube.com/c/HwModsWa857`,
+sourceUrl: `https://youtube.com/c/duxbot6413`,
 thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg', 
 }
 }}, { quoted:m})
@@ -4922,9 +4929,9 @@ case 'bugspam': {
 if (isBan) throw sticBanLu(from)
 haikal.sendMessage(m.chat, { image: kalimage, caption: `◎ © Hay Kak ${pushname} 👋 Selamat ${salam}
 
-[ 🇲🇨 Aku Adalah Bot War Dari Indonesia]
+[ This Is A Private Bot From Nigeria]
 
-° Owner  : 6281214281312
+° Owner  : 79917329694
 ° Version : 12
 ° Baileys : 4.4.0
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
@@ -4987,10 +4994,10 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `◎ © Hay Kak ${pushnam
 ┣❏button [ jumlah ]
 ┣❏spam [ Reply Pesan ]
 ┗━━⊱`,
-contextInfo:{"externalAdReply": {"title": `SC banghw`,"body": `Selamat ${salam} kak ${pushname}`,
+contextInfo:{"externalAdReply": {"title": `SC unlidux`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
-sourceUrl: `https://youtube.com/c/HwModsWa857`,
+sourceUrl: `https://youtube.com/c/duxbot6413`,
 thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg', 
 }
 }}, { quoted:m})
@@ -4998,11 +5005,9 @@ thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg',
 break
 case 'bugsantet': {
 if (isBan) throw sticBanLu(from)
-haikal.sendMessage(m.chat, { image: kalimage, caption: `◎ © Hay Kak ${pushname} 👋 Selamat ${salam}
+haikal.sendMessage(m.chat, { image: kalimage, caption: `◎ © Hay Kak ${pushname} 👋 Selamat ${salam]
 
-[ 🇲🇨 Aku Adalah Bot War Dari Indonesia]
-
-° Owner  : 6281214281312
+° Owner : 79917329694
 ° Version : 12
 ° Baileys : 4.4.0
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
@@ -5030,10 +5035,10 @@ Ketik > m.chat ( di group dulu )
 ┏━━⊱
 ┣❏gasbug (id group nya)
 ┗━━⊱`,
-contextInfo:{"externalAdReply": {"title": `SC banghw`,"body": `Selamat ${salam} kak ${pushname}`,
+contextInfo:{"externalAdReply": {"title": `SC unlidux`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
-sourceUrl: `https://youtube.com/c/HwModsWa857`,
+sourceUrl: `https://youtube.com/c/duxbot6413`,
 thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg', 
 }
 }}, { quoted:m})
@@ -5048,7 +5053,7 @@ var catalog = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "product": {
 "productImage": messa.imageMessage,
 "productId": "449756950375071",
-"title": ` © Hay Kak ${pushname} 👋 Selamat ${salam} Apa Yang Bisa Saya Bantu 🙏`,
+"title": ` © Hello Dear ${pushname} 👋 Greetings ${salam} Apa Yang Bisa Saya Bantu 🙏`,
 "description": ` - © © °banghw°-
 
 ◎ Owner : ${botname}
@@ -5062,8 +5067,8 @@ SILAHKAN KETIK MENU UNTUK MENGGUNAKAN BOT LEBIB LANJUT ✌️`,
 "productImageCount": 1,
 "firstImageId": 1,
 "salePriceAmount1000": "10000000",
-"retailerId": `© © °banghw°WE ARE NOT MASTOD`,
-"url": "Wa.me/6285714170944"
+"retailerId": `© © °unlidux°WE ARE D-DUX`,
+"url": "Wa.me/2347082252014"
 },
 "businessOwnerJid": "6285714170944@s.whatsapp.net",
 }
@@ -5088,11 +5093,11 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `
 ┣❏cantik
 ┣❏kesel
 ┣❏ngeselin
-┗━━⊱[ © °banghw°]`,
-contextInfo:{"externalAdReply": {"title": `SC © banghw`,"body": `Selamat ${salam} kak ${pushname}`,
+┗━━⊱[ © °unlidux°]`,
+contextInfo:{"externalAdReply": {"title": `SC © unlidux`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
-sourceUrl: `https://youtube.com/c/HwModsWa857`,
+sourceUrl: `https://youtube.com/c/duxbot6413`,
 thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg', 
 }
 }}, { quoted:m})
@@ -5124,11 +5129,11 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `
 ┣❏heleh
 ┣❏holoh
 ┣❏delttt]
-┗━━⊱[ © °banghw°]`,
-contextInfo:{"externalAdReply": {"title": `SC © banghw`,"body": `Selamat ${salam} kak ${pushname}`,
+┗━━⊱[ © °unlidux°]`,
+contextInfo:{"externalAdReply": {"title": `SC © unlidux`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
-sourceUrl: `https://youtube.com/c/HwModsWa857`,
+sourceUrl: `https://youtube.com/c/duxbot6413`,
 thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg', 
 }
 }}, { quoted:m})
@@ -5169,11 +5174,11 @@ nomorhoki
 ┣❏masasubur
 ┣❏zodiak
 ┣❏shio
-┗━━⊱[ © °banghw°]`,
-contextInfo:{"externalAdReply": {"title": `SC © banghw`,"body": `Selamat ${salam} kak ${pushname}`,
+┗━━⊱[ © °unlidux°]`,
+contextInfo:{"externalAdReply": {"title": `SC © unlidux`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
-sourceUrl: `https://youtube.com/c/HwModsWa857`,
+sourceUrl: `https://youtube.com/c/duxbot6413`,
 thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg', 
 }
 }}, { quoted:m})
@@ -5188,11 +5193,11 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `
 ┣❏alquran
 ┣❏juzamma
 ┣❏tafsirsurah
-┗━━⊱[ © °banghw°]`,
-contextInfo:{"externalAdReply": {"title": `SC © banghw`,"body": `Selamat ${salam} kak ${pushname}`,
+┗━━⊱[ © °unlidux°]`,
+contextInfo:{"externalAdReply": {"title": `SC © unlidux`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
-sourceUrl: `https://youtube.com/c/HwModsWa857`,
+sourceUrl: `https://youtube.com/c/duxbot6413`,
 thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg', 
 }
 }}, { quoted:m})
@@ -5218,11 +5223,11 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `
 ┣❏antara-news
 ┣❏cnn-news
 ┣❏fajar-news
-┗━━⊱[ © °banghw°] `,
-contextInfo:{"externalAdReply": {"title": `SC © banghw`,"body": `Selamat ${salam} kak ${pushname}`,
+┗━━⊱[ © °unlidux°] `,
+contextInfo:{"externalAdReply": {"title": `SC © unlidux`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
-sourceUrl: `https://youtube.com/c/HwModsWa857`,
+sourceUrl: `https://youtube.com/c/duxbot6413`,
 thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg', 
 }
 }}, { quoted:m})
@@ -5257,11 +5262,11 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `
 ┣❏getpic
 ┣❏penjara
 ┣❏intro
-┗━━⊱[ © °banghw°]`,
-contextInfo:{"externalAdReply": {"title": `SC © banghw`,"body": `Selamat ${salam} kak ${pushname}`,
+┗━━⊱[ © °unlidux°]`,
+contextInfo:{"externalAdReply": {"title": `SC © unlidux`,"body": `Greetings Dear ${salam} ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
-sourceUrl: `https://youtube.com/c/HwModsWa857`,
+sourceUrl: `https://youtube.com/c/duxbot6413`,
 thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg', 
 }
 }}, { quoted:m})
@@ -5283,11 +5288,11 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `
 ┣❏robot
 ┣❏slow
 ┣❏tupai
-┗━━⊱[ © °banghw°]`,
-contextInfo:{"externalAdReply": {"title": `SC © banghw`,"body": `Selamat ${salam} kak ${pushname}`,
+┗━━⊱[ © °unlidux°]`,
+contextInfo:{"externalAdReply": {"title": `SC © unlidux`,"body": `Greetings Dear ${salam}  ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
-sourceUrl: `https://youtube.com/c/HwModsWa857`,
+sourceUrl: `https://youtube.com/c/duxbot6413`,
 thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg', 
 }
 }}, { quoted:m})
@@ -5299,10 +5304,10 @@ if (isBan) throw sticBanLu(from)
 haikal.sendMessage(m.chat, { image: kalimage, caption: `
  *[ 🌷 ] Asupan Mata* 
 bokep`,
-contextInfo:{"externalAdReply": {"title": `SC © banghw`,"body": `Selamat ${salam} kak ${pushname}`,
+contextInfo:{"externalAdReply": {"title": `SC © unlidux`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
-sourceUrl: `https://youtube.com/c/HwModsWa857`,
+sourceUrl: `https://youtube.com/c/duxbot6413`,
 thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg', 
 }
 }}, { quoted:m})
@@ -5319,11 +5324,11 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `
 ┣❏wikimedia [query]
 ┣❏ringtone [query]
 ┣❏searchgroups [query]
-┗━━⊱[ © °banghw°]`,
-contextInfo:{"externalAdReply": {"title": `SC © banghw`,"body": `Selamat ${salam} kak ${pushname}`,
+┗━━⊱[ © °unlidux°]`,
+contextInfo:{"externalAdReply": {"title": `SC © unlidux`,"body": `Greetings dear ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
-sourceUrl: `https://youtube.com/c/HwModsWa857`,
+sourceUrl: `https://youtube.com/c/duxbot6413`,
 thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg', 
 }
 }}, { quoted:m})
@@ -5352,11 +5357,11 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `
 ┣❏styletext
 ┣❏smeme
 ┣❏ss [url]
-┗━━⊱[ © °banghw°]`,
-contextInfo:{"externalAdReply": {"title": `SC © banghw`,"body": `Selamat ${salam} kak ${pushname}`,
+┗━━⊱[ © °unlidux°]`,
+contextInfo:{"externalAdReply": {"title": `SC © unlidux`,"body": `Greetings dear ${salam}  ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
-sourceUrl: `https://youtube.com/c/HwModsWa857`,
+sourceUrl: `https://youtube.com/c/duxbot6413`,
 thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg', 
 }
 }}, { quoted:m})
@@ -5371,7 +5376,7 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `
 ┣❏listcmd
 ┣❏delcmd
 ┣❏lockcmd
-┗━━⊱[ © °banghw°]`,
+┗━━⊱[ © °unlidux°]`,
 contextInfo:{"externalAdReply": {"title": `SC © banghw`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
@@ -5422,7 +5427,7 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `
 ┣❏listgc
 ┣❏listonline
 ┣❏speedtest
-┗━━⊱[ © °banghw°]`,
+┗━━⊱[ © °Unlidux°]`,
 contextInfo:{"externalAdReply": {"title": `SC © banghw`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
